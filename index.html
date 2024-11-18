@@ -1,0 +1,760 @@
+<!html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./images/Bloom\ Website\ Images/Homepage_tableimage.jpg");
+  min-height: 100%;
+}
+
+.hero-text {
+position: absolute;
+top: 55%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: cornsilk;
+background-color: black;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-wrap:pretty;
+text-align: center;
+font-size: 5em;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue-gray w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="./images/Bloom Website Images/1x/Bloom-White-Logo.png" alt="logo"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">BLOOM MODEL</a>
+      <a href="#pricing" class="w3-bar-item w3-button"></i> SERVICES </a>
+      <a href="#work" class="w3-bar-item w3-button"></i> INSIGHTS</a>
+      <a href="#team" class="w3-bar-item w3-button"></i> WHY BLOOM?</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> LET'S CHAT</a>
+      <a href="#search"class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+      <a href="bag" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-shopping-bag"></i></a>>
+    </div>
+
+<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">BLOOM MODEL</a>
+    <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
+    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">INSIGHTS</a>
+    <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">WHY BLOOM?</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">LET'S CHAT</a>
+  </nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-white-min" id="home">
+  <div class="w3-display-bottommiddle w3-text-white w3-xlarge" style="padding:48px">
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-xlarge w3-margin-bottom w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+  </div> 
+  <div class="w3-display-bottommiddle w3-text-black w3-xxlarge" style="padding:24px 48px">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+<div class="bgimg-1">
+  <h1 class="hero-text"> THE BLOOM MODEL <br> <div class="w3-xlarge"> Growing Your Business through Purpose-Driven Sales </h1>
+  </div>
+</header>
+
+<!-- Bloom Model Section-->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h2 class="w3-center">THE BLOOM MODEL</h2>
+  <p class="w3-center w3-large">A purpose-driven, relationship based business development model that delivers bottom line results.</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Brand Positioning <br> and Leads</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">The Offer</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Onboarding</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Maximizing</p>
+    </div>
+  </div>
+</div>
+
+<!-- "Bloom Model" Carousel-->
+<div class="w3-row w3-padding-64" id="seasoning">
+    <div class="w3-padding-large">
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <img 
+    class="mySlides" 
+    src="./images/Bloom Website Images/Brand-Navy-curtain.jpg" 
+    style="width: 100%" />
+    <img
+      class="mySlides"
+      src="./images/Bloom Website Images/Flower-and-vine-mikhail-nilov-6933164.jpg"
+      style="width: 100%; display: none"
+    />
+    <img
+      class="mySlides"
+      src="./images/Bloom Website Images/Handshake-fauxels-3184465.jpg"
+      style="width: 100%; display: none"
+    />
+    <img
+      class="mySlides"
+      src="./images/Bloom Website Images/Horizontal Graphs_empodrez-5716032.jpg"
+      style="width: 100%; display: none"
+    />
+        <!-- end carousel slide show -->
+
+        <!-- begin carousel thumbnail -->
+        <!-- add thumbnail buttons for selecting a slide to show -->
+        <div class="w3-col s3">
+            <img
+                class="demo w3-opacity w3-hover-opacity-off"
+                src="./images/Bloom Website Images/Brand-Navy-curtain.jpg" 
+                style="width: 100%; cursor: pointer"
+                onclick="currentDiv(1)"
+                />
+        </div>
+        <div class="w3-col s3">
+            <img
+                class="demo w3-opacity w3-hover-opacity-off"
+                src="./images/Bloom Website Images/Flower-and-vine-mikhail-nilov-6933164.jpg"
+                style="width: 100%;cursor: pointer"
+                onclick="currentDiv(2)"
+                />
+        </div>
+        <div class="w3-col s3">
+            <img
+                class="demo w3-opacity w3-hover-opacity-off"
+                src="./images/Bloom Website Images/Monitor-graph.jpg"
+                style="width: 100%;cursor: pointer"
+                onclick="currentDiv(3)"
+                />
+        </div>
+        <div class="w3-col s3">
+            <img
+                class="demo w3-opacity w3-hover-opacity-off"
+                src="./images/Bloom Website Images/Offer-Deal.jpg"
+                style="width: 100%; cursor: pointer"
+                onclick="currentDiv(4)"
+                />
+        </div>
+        <!-- end carousel thumbnail -->
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+    <h2>SERVICES</h2>
+    <p class="w3-large">The Bloom Model has its foundations in buyer behavior psychology and sociology because the best sales are built on a foundation of understanding the motivations of people.  Begin your learning with our e-book, workbooks and tools and when you are ready to hit the ground running enrolling in one of our 3, 6 or 12 month Accelerator Programs. Our workshops and strategic engagements take your business to expert levels allowing you to reengineer your brand positioning and differentiate you from your competitors. Each of our speciality engagements will provide you with a clear action plan for how to engage in relationship based selling.</p>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Tools</li>
+          <li class="w3-padding-16"><b>Free</b> E-book</li>
+          <li class="w3-padding-16"><b>Full</b> Workbook</li>
+          <li class="w3-padding-16"><b>Downloadable</b> Tools</li>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large">Inquiry Today</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-blue-gray w3-xlarge w3-padding-48">Accelerator</li>
+          <li class="w3-padding-16"><b>3</b> Months</li>
+          <li class="w3-padding-16"><b>6</b> Months</li>
+          <li class="w3-padding-16"><b>12</b> Months</li>
+          <li class="w3-padding-16"><b>Prices</b> Vary</li>
+  
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large">Details</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Strategy</li>
+          <li class="w3-padding-16"><b>The Why</b> Workshop</li>
+          <li class="w3-padding-16"><b>Competitor</b> Intelligence</li>
+          <li class="w3-padding-16"><b>Custom</b> Pitch Decks</li>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large">Inquire Today</button>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-row-padding" style="margin-top:100px">
+      <div class="w3-row-padding" style="margin-top:100px">
+  </div>
+
+  <!-- Sortable table Section -->
+      <div class="w3-row-padding" style="margin-top:100px">
+        <h2 class="w3-center">Accelerator Programs</h2>
+        <!-- add sortable table -->
+        <!-- step 1: create a table with 4 columns -->
+        <!-- step 2: add jquery links in the <head> area -->
+         <!-- begin: step 2 of adding sortable table: add jquery links here -->
+    <!-- jquery.min.js should be loaded before jquery.tablesorter.min.js because tablesorter requires basice jquery -->
+         <script
+         type="text/JavaScript"
+         src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ></script>
+        <script
+        type="text/JavaScript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"
+        ></script>
+  <!-- end: step 2 of adding sortable table: add jquery links here -->
+        <div class="w3-padding-large">
+            <table id="myTable" class="w3-table-all">
+            <thead>
+              <tr class="w3-blue-gray">
+                <th>PROGRAM</th>
+                <th>PRO</th>
+                <th>SELECT</th>
+                <th>ELITE</th>
+              </tr>
+            </thead>  
+            <tr class="w3-hover-white; w3-text-black">
+                <td>Engagement Period</td>
+                <td>3 Months</td>
+                <td>6 Months</td>
+                <td>12 Months</td>
+              </tr>
+              <tr class="w3-hover-blue-gray; w3-text-black">
+                <td>Included</td>
+                <td>2 Days Virtual Training</td>
+                <td>2 Days Virtual or In-Person Training</td>
+                <td>3 Days Virtual or In-Person Training</td>
+              </tr>
+              <tr class="w3-hover-white; w3-text-black">
+                <td>Bonuses</td>
+                <td>6 Bloom E-Books</td>
+                <td>9 Bloom E-Books</td>
+                <td>12 Bloom E-Books</td>
+              </tr>
+              <tr class="w3-hover-blue-gray; w3-text-black">
+                <td>Price</td>
+                <td>$8K/Mo (3 Months)</td>
+                <td>$6.5K/Mo (6 Months)</td>
+                <td>$5.5K/Mo (12 Months)</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <hr />
+<!-- End Accelerator Table -->
+
+ <!-- accordion -->
+        <!-- step 1: add accordion button -->
+        <!-- step 2: add accordion content -->
+        <!-- step 3: add accordion javascript in <script> below -->
+        <div class="w3-row">
+            <h2 class="w3-center">Strategy and Research</h2>
+            <p>
+            Bloom workshops and strategic engagements go a level deeper to help you reengineer
+            your brand positioning and differentiate you from your competitors. Each of our 
+            speciality engagements will provide you with a clear action plan for how to engage
+            in relationship based selling.   
+            </p>
+        <!-- create an area to hold both accordion button and content -->
+            <div class="w3-col s4 w3-left" style="padding-right: 3px">
+            <button
+            onclick="myAccordion('accordion1')"
+            class="w3-button w3-bar-block w3-blue-gray w3-center"
+            id="accordionBtn1"
+            >
+            <h4>The Why Workshop <i class="fa fa-caret-down"></i></h4>
+            </button>
+            <!-- add accordion content here -->
+            <div
+            id="accordion1"
+            class="w3-hide w3-container"
+            style="height: 260px"
+            >
+            <p>
+            Our “Why Workshop” is designed to help entrepreneurs and businesses of all sizes 
+            create a clear, compelling foundation for their brand identity. Through a structured 
+            consultation process, we guide you in articulating your mission, vision, and core values, 
+            ensuring these align with your long-term business goals and resonate with your target 
+            audience. You will leave the workshop having clearly identified your unique selling 
+            proposition and how your brand differentiates itself in the marketplace. We will also 
+            help define a consistent tone, language, and persona that represents your business 
+            across all communication channels.
+            </p>
+            </div>
+        </div>
+            <div class="w3-col s4 w3-left" style="padding-left: 3px">
+            <button
+            onclick="myAccordion('accordion2')"
+            class="w3-button w3-bar-block w3-blue-gray w3-center"
+            id="accordionBtn1"
+            >
+            <h4>Competitor Intelligence <i class="fa fa-caret-down"></i></h4>
+            </button>
+            <div
+            id="accordion2"
+            class="w3-hide w3-container"
+            style="height: 260px"
+            >
+            <p>
+            Our Competitor Intelligence service provides businesses with detailed insights into their 
+            competitors' strategies, strengths, weaknesses, and market positioning. We gather, analyze,
+            and interpret relevant data from a variety of sources, delivering actionable intelligence 
+            that helps you make informed strategic decisions. This service includes monitoring competitors' 
+            product launches, pricing models, marketing campaigns, customer feedback, and digital presence, 
+            ensuring you stay ahead in a competitive landscape.
+            </p>
+            </div>
+        </div>
+            <div class="w3-col s4 w3-left" style="padding-left: 3px"></div>
+            <button
+            onclick="myAccordion('accordion3')"
+            class="w3-button w3-bar-block w3-blue-gray w3-center"
+            id="accordionBtn1"
+            >
+            <h4>Custom Pitch Presentations<i class="fa fa-caret-down"></i></h4>
+            </button>
+            <div
+            id="accordion3"
+            class="w3-hide w3-container"
+            style="height: 260px"
+            >
+            <p>
+            Our Custom Pitch Deck service is designed to help businesses create impactful, 
+            strategic presentations that resonate with stakeholders, attract clients, and 
+            drive growth. Whether you're pitching to investors, negotiating partnerships, 
+            or presenting to prospective customers, we tailor our approach to your specific 
+            needs. We work closely with you to understand your business goals, target audience, 
+            and unique selling points, ensuring that every slide aligns with your overall strategy. 
+            We focus on creating a powerful narrative arc that takes your audience on a journey, 
+            addressing their needs and concerns, while clearly showcasing how your business solution 
+            solves their problems.
+            </p>
+            </div>
+        </div>
+    </div>
+<!-- End page content -->
+
+
+<!-- Why Bloom Section -->
+ <!-- About Section -->
+ <div class="w3-container" style="padding:128px 16px" id="team">
+    <h1 class="w3-center">Why Bloom?</h1>
+ <div class="w3-row w3-padding-64 w3-blue-gray" id="about">
+    <div class="w3-col w3-half w3-padding-large w3-hide-small">
+        <h2 class="w3-center">Our Experience</h2>
+        <img src="./images/Bloom Website Images/Vertical_window-arina-krasnikova-5712528.jpg" class="w3-round w3-image w3-opacity-min" alt="Laptop" height="50%" width="560px">
+        <p class="w3-large">
+        We believe that lasting success is built on strong, authentic relationships. Our approach to sales
+        is relationship-based, putting trust, transparency, and collaboration at the heart of everything we do. 
+        We see every client interaction as an opportunity to build meaningful, long-term partnerships that go 
+        beyond just transactions. By deeply understanding our clients' needs and goals, we create solutions that 
+        are aligned with their success, ensuring mutual growth. Finally, we are results-driven, committed to delivering 
+        tangible outcomes thatmake a measurable impact. Our approach combines clarity, purpose, and a relentless 
+        pursuit of success to empower businesses to thrive in today’s competitive landscape.
+    </div>
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+       </div> 
+       <div class="w3-col w3-half w3-padding-large">
+        <h2 class="w3-center">Our Values</h2>
+        <img src="./images/pexels-shvets-production-9052538.jpg" class="w3-round w3-image w3-opacity-min" alt="Sticky Notes" height="50%" width="560px">
+         <p class="w3-large">
+            At Bloom, our core values guide everything we do. We believe in simplicity, ensuring that our solutions are clear,
+             streamlined, and easy to implement, allowing businesses to focus on what truly matters. We are purpose-driven,
+              dedicated to helping our clients achieve their unique goals with integrity and focus, always aligning our efforts
+              with the bigger picture.  We believe that lasting success is built on strong, authentic relationships. 
+              Our approach to sales is relationship-based, putting trust, transparency, and collaboration at the heart of 
+              everything we do. We see every client interaction as an opportunity to build meaningful, long-term partnerships
+               that go beyond just transactions. 
+         </p>
+         <span class="w3-tag w3-blue-grey">
+       </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64"> 
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">55+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h2 class="w3-center">INSIGHTS</h2>
+<!-- Insights Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+    <div class="w3-row-padding">
+      <div class="class=w3-center">
+        <h3>Unlocking the Mindset Behind Business Transactions</h3>
+        <div class="w3-half w3-padding-large">
+        <p>In the world of B2B (business-to-business) sales, success isn't just about selling products or services—it’s about
+             understanding the psychology of the buyer. B2B sales are often perceived as transactional, data-driven, and
+              logical. While this is true to an extent, emotions and psychological triggers play a huge role in influencing
+               business decisions. Sales teams that understand the nuances of human behavior can connect more effectively 
+               with buyers, <a href=https://hbr.org/2020/01/research-how-to-build-trust-with-business-partners-from-other-cultures>building trust</a> 
+               and securing long-term relationships. Let’s explore some key psychological principles that impact B2B sales.</p>
+    </div>
+    <div class="w3-half w3-padding-large">
+        <p>Psychological Principle: Trust is the foundation of all relationships, especially in business. 
+            B2B buyers often make decisions that can significantly impact their organization. This high level of 
+            responsibility means they need to trust their vendors and partners to reduce perceived risks. Building trust 
+            begins with credibility, which can be established through <a href = https://sproutsocial.com/insights/social-proof>social
+            proof</a>, authority and consistency.  Without trust, buyers are less likely to invest their time, money, or 
+            reputation into a partnership with your company.</p>
+      </div>
+      <div class="w3-col m6">
+    </div>
+  </div>
+    <div class="w3-row-padding" style="margin-top:64px">
+        <div class="w3-col l3 m6">
+        <img src="./images/Bloom Website Images/Tablet-picjumbo-com-55570-196649.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="How Technology Overload is Holding Back Performance">
+    </div>
+         <div class="w3-col l3 m6">
+        <img src="./images/Bloom Website Images/Soccer-rdne-7188095.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Adopt an Athlete Mindset  
+      for Consistent Results">
+    </div>
+        <div class="w3-col l3 m6">
+         <img src="./images/Bloom Website Images/Women-talking-wall-thirdman-7652469.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Socialogical Influences on B2B Sales">
+    </div>
+        <div class="w3-col l3 m6">
+         <img src="./images/Bloom Website Images/Why-ann-h-45017-15368257.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Know Your Brand">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="./images/Bloom Website Images/Trust-Knot-pixabay-113737.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Building Trusting Relationships with Prospective Clients">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./images/Bloom Website Images/Flower-and-vine-mikhail-nilov-6933164.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The Key Elements of a Calm Sales Approach">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./images/Bloom Website Images/Team-Members-nappy-935949.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Why the Team Approach Works in B2B Sales">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./images/Bloom Website Images/Target-enginakyurt-1552617.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="How to Find Your Target Audience">
+    </div>
+  </div>
+</div>
+            <!-- Must Watch Videos -->
+<p class="w3-center w3-xlarge">Must Watch</p>  
+<div class="w3-row">
+        <div class="w3-col s4 w3-center">
+        <iframe
+            style="width:100%; height: 20%"
+            src="https://www.youtube.com/embed/RZBfUkMhZdQ?si=XRA6o2Rn6ui9eayd" 
+            title="YouTube video player"
+            frameborder="10"
+            allow="autoplay; encrypted-media;"
+            allowfullscreen
+        ></iframe>
+        </div>
+        <div class="w3-col s4 w3-center">
+        <iframe
+            style="width:100%; height: 20%"
+            src="https://www.youtube.com/embed/6pY7EjqD3QA?si=1AN8jUZ-_5PtaRVb" 
+            title="YouTube video player"
+            frameborder="10"
+            allow="autoplay; encrypted-media;"
+            allowfullscreen
+        ></iframe>
+        </div>
+        <div class="w3-col s4 w3-center">
+        <iframe
+            style="width:100%; height: 20%"
+            src="https://www.youtube.com/embed/j4QlG5jKpio?si=baBnxNWNXeKd7kW1" 
+            title="YouTube video player"
+            frameborder="10"
+            allow="autoplay; encrypted-media;"
+            allowfullscreen
+        ></iframe>
+        </div>
+        <div class="w3-col s4 w3-center">
+            <iframe
+                style="width:100%; height: 20%"
+                src="https://www.youtube.com/embed/FD0hw-edAqc?si=1zsdqJ7st8a9BNwp" 
+                title="YouTube video player"
+                frameborder="10"
+                allow="autoplay; encrypted-media;"
+                allowfullscreen
+            ></iframe>
+            </div>
+        <div class="w3-col s4 w3-center">
+            <iframe
+                style="width:100%; height: 20%"
+                src="https://www.youtube.com/embed/QGeHS4jO0X0?si=O2fZ0E8yz4e_StFQ" 
+                title="YouTube video player"
+                frameborder="10"
+                allow="autoplay; encrypted-media;"
+                allowfullscreen
+            ></iframe>
+        </div>
+        <div class="w3-col s4 w3-center">
+            <iframe
+                style="width:100%; height: 20%"
+                src="https://www.youtube.com/embed/hYZG8qnS2T4?si=rU6QUZc8Z8g8QrZc" 
+                title="YouTube video player"
+                frameborder="10"
+                allow="autoplay; encrypted-media;"
+                allowfullscreen
+            ></iframe>
+        </div>
+    </div>
+ 
+ 
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Let's Chat Section -->
+  <head>
+<div class="w3-container w3-light-grey" style="padding:80px 16px" id="contact">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/w3.css" />
+  <style>
+    .my-scrolling {
+      height: 100px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="w3-row">
+    <div class="w3-center w3-padding w3-white">
+      <div
+        class="w3-dark-gray w3-center"
+        style="margin-left: -16px; margin-right: -16px; margin-top: -18px"
+      >
+        <h2>LET'S CHAT</h2>
+      </div>
+      <div class="my-scrolling" style="padding-right: 10px">
+        <p>
+        At Bloom, we’re dedicated to helping purpose-driven businesses like yours unlock their full potential. Whether you're looking to navigate the Bloom Model on your own, accelerate your results with one of our Bloom consultants 
+        or let us jump right in with expert competitive analysis, we are here to guide you every step of the way. We take the time to understand your unique business challenges, so we can tailor our services to deliver practical
+        solutions that drive sustainable growth. Reach out to us today and learn how we can help you achieve your business goals.
+        If you have any questions or would like to schedule a free consultation, don’t hesitate to get in touch. Our team is available to discuss your specific needs and explore how our B2B consulting services can support your success. 
+        Simply fill out the form below, and one of our experts will get back to you promptly. We look forward to partnering with you on your business journey.
+        Are you ready to take your business to the next level? Whether you're looking to streamline operations, boost profitability, or develop a winning strategy, our expert business consultants are here to help. 
+        We’ll provide you tailored advice based on your unique business needs and practical steps you can implement right away to drive growth.
+        Our free 30-minute consultation is designed to help you identify key challenges, explore new opportunities, and set your business on the path to success. There’s no obligation—just a chance to get expert 
+        advice and a fresh perspective.
+        </p>
+      </div>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Portland, OR</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 503.555.7575</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: hello@bloom-model.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+
+    <!-- Image of location/map -->
+    <img src="./images/Bloom Website Images/Bridge-pdx-1438884 (1).jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-blue-gray w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>hello@bloom-model.com</p>
+  <p>Copyright © 2024 Bloom Partners Inc. All Rights Reserved.</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
+<script>
+    // begin added for carousel
+    // step 2: add javascript to support carousel slideshow feature
+    var myIndex = 0;
+    carousel();
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {
+        myIndex = 1;
+      }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+
+    // slideshow - carousel
+    function currentDiv(n) {
+      showDivs((slideIndex = n));
+      myIndex = n;
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = x.length;
+      }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+      }
+      x[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " w3-opacity-off";
+    }
+
+      // begin added for sortable
+      $(document).ready(function () {
+        $("table#myTable").tablesorter({
+          sortList: [
+            [2, 1],
+          ] /* 1st number - column to sort, 2nd number - asending (2) or descending order (1) */,
+          CssAsc: "tablesorter-headerAsc",
+          CssDesc: "tablesorter-headerDesc",
+        });
+      });
+      // end added for sortable
+
+     // begin added for accordion
+     function myAccordion(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+          x.previousElementSibling.className =
+            x.previousElementSibling.className.replace("w3-blue-gray", "w3-light-gray");
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+          x.previousElementSibling.className =
+            x.previousElementSibling.className.replace("w3-blue-gray", "w3-light-gray");
+        }
+      }
+      // end added for accordion
+
+    // begin added for mobile version
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+
+    var mySidebar = document.getElementById("mySidebar");
+
+    function w3_open() {
+      if (mySidebar.style.display === "block") {
+        mySidebar.style.display = "none";
+      } else {
+        mySidebar.style.display = "block";
+      }
+    }
+
+    // Close the sidebar with the close button
+    function w3_close() {
+      mySidebar.style.display = "none";
+    }
+    // end added for mobile version
+
+    </script>
+  </body>
+</html>
